@@ -1,0 +1,145 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+header h1{
+    padding-bottom: 10px;
+}
+nav ul {
+    list-style-type: none;
+display: flex;
+
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.banner {
+   background-image: url('portfolio.jpg');
+    background-size: contain;
+    background-position: center;
+    color:white;
+    text-align: center;
+    padding: 100px 0;
+    height: auto;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+
+.skills {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list li {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.contact-info li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #007BFF;
+}
+#contact p {
+    font-size: large;
+    font-weight:400 ;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pdf{
+    background-color: #333;
+    color: #f0f0f0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+}
+#about p {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
